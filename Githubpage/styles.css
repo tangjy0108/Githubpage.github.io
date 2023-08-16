@@ -48,7 +48,9 @@ li {
   margin-left: 20px; /* 調整縮進量 */
   display: block;
 }
-
+.duration {
+  float: right;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
