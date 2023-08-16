@@ -1,46 +1,39 @@
-/* Reset some default styles */
-body, h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-}
-
-/* Basic styling */
 body {
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: #333;
+  width: 100vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: linear-gradient(to bottom, #3c9c8d 0%,#1e5799 100%);
   color: white;
+}
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: normal;
   text-align: center;
-  padding: 2rem;
+  font-size: 26px;
 }
-
-nav ul {
+ul {
+  counter-reset: li;
+}
+a {
+  color: white;
+}
+li {
+  margin-top: 3em;
+  counter-increment: li;
   list-style: none;
-  display: flex;
-  justify-content: center;
-  background-color: #eee;
-  padding: 1rem 0;
 }
-
-nav li {
-  margin: 0 1rem;
+li > code, 
+li:before {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
 }
-
-nav a {
-  text-decoration: none;
-  color: #333;
+code {
+  font-weight: bold;
 }
-
-section {
-  padding: 2rem;
+li:before {
+  content: "my tip #" counter(li) " ";
 }
-
-.project {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin-bottom: 1rem;
+p {
+  margin: 0;
+  padding: 0.8em;
 }
-
-/* Add more custom styling as needed */
