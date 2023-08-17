@@ -19,6 +19,7 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  float: right;
 }
 
 h1 {
