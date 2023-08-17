@@ -76,3 +76,30 @@ hr {
   border: 0;
   border-top: 1px solid #ddd;
 }
+/* 假設你的頁面最大寬度為 800px，小於 800px 時應用響應式樣式 */
+@media (max-width: 800px) {
+  .resume {
+    max-width: 90%; /* 使內容在手機螢幕上更適合 */
+    margin: 0 auto;
+    padding: 10px; /* 縮小 padding，節省空間 */
+  }
+  
+  h1 {
+    font-size: 24px; /* 調整標題字體大小 */
+  }
+  
+  h2 {
+    font-size: 18px; /* 調整次標題字體大小 */
+  }
+  
+  p {
+    font-size: 14px; /* 調整段落字體大小 */
+    margin-bottom: 3px;
+  }
+  
+  .notion-button,
+  .project-button {
+    padding: 6px 12px; /* 調整按鈕大小 */
+    font-size: 14px; /* 調整按鈕字體大小 */
+  }
+}
