@@ -64,8 +64,8 @@ li {
   margin-bottom: 10px;
 }
 .sub-item {
-  font-style: italic;
-  margin-left: 20px; /* 調整縮進量 */
+  /*font-style: italic;*/
+  margin-left: 10px; /* 調整縮進量 */
   display: block;
 }
 .duration {
