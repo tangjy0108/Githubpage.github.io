@@ -65,7 +65,7 @@ li {
 }
 .sub-item {
   /*font-style: italic;*/
-  margin-left: 10px; /* 調整縮進量 */
+  margin-left: 5px; /* 調整縮進量 */
   display: block;
 }
 .duration {
