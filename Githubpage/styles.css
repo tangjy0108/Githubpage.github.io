@@ -93,10 +93,13 @@ hr {
   }
   
   p {
-    font-size: 10px; /* 調整段落字體大小 */
+    font-size: 15px; /* 調整段落字體大小 */
     margin-bottom: 3px;
   }
-  
+  li {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
   .notion-button,
   .project-button {
     padding: 3px 6px; /* 調整按鈕大小 */
