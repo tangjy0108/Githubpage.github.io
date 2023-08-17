@@ -21,6 +21,15 @@ body {
   border-radius: 5px;
   float: right;
 }
+.notion-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
 
 h1 {
   font-size: 28px;
