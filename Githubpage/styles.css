@@ -85,21 +85,21 @@ hr {
   }
   
   h1 {
-    font-size: 24px; /* 調整標題字體大小 */
+    font-size: 20px; /* 調整標題字體大小 */
   }
   
   h2 {
-    font-size: 18px; /* 調整次標題字體大小 */
+    font-size: 15px; /* 調整次標題字體大小 */
   }
   
   p {
-    font-size: 14px; /* 調整段落字體大小 */
+    font-size: 10px; /* 調整段落字體大小 */
     margin-bottom: 3px;
   }
   
   .notion-button,
   .project-button {
-    padding: 6px 12px; /* 調整按鈕大小 */
-    font-size: 14px; /* 調整按鈕字體大小 */
+    padding: 3px 6px; /* 調整按鈕大小 */
+    font-size: 10px; /* 調整按鈕字體大小 */
   }
 }
