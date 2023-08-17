@@ -102,7 +102,7 @@ hr {
   }
  .sub-item {
   /*font-style: italic;*/
-    font-size: 15px
+    font-size: 15px;
     display: block;
   }
   .notion-button,
