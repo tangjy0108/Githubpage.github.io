@@ -97,9 +97,14 @@ hr {
     margin-bottom: 3px;
   }
   li {
-  font-size: 15px;
-  margin-bottom: 10px;
-}
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+ .sub-item {
+  /*font-style: italic;*/
+    font-size: 15px
+    display: block;
+  }
   .notion-button,
   .project-button {
     padding: 3px 6px; /* 調整按鈕大小 */
