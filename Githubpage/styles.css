@@ -17,7 +17,6 @@ body {
     position: relative;
     float: right;
     margin-right: 10px;
-    display: inline-block;
 }
 
 /* 下拉内容 (默认隐藏) */
