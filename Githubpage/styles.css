@@ -15,7 +15,7 @@ body {
 }
 /* 容器 <div> - 需要定位下拉内容 */
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
