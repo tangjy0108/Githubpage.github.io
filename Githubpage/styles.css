@@ -11,11 +11,10 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    float: right;
 }
 /* 容器 <div> - 需要定位下拉内容 */
 .dropdown {
-    position: absolute;
+    position: relative;
     display: inline-block;
 }
 
