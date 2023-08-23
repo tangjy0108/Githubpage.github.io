@@ -5,13 +5,22 @@ body {
   background-color: #f5f5f5;
 }
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #0077b5;
     color: white;
-    padding: 16px;
+    padding: 8px 16px;
     font-size: 16px;
-    border: none;
+    border: 5px;
     cursor: pointer;
+    border-radius: 5px;
 }
+/*display: inline-block;
+  padding: 8px 16px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  float: right;
+  margin-right: 10px;
 /* 容器 <div> - 需要定位下拉内容 */
 .dropdown {
     position: relative;
@@ -24,7 +33,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
