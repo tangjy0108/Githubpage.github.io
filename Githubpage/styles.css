@@ -5,10 +5,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.drop-down-menu {
-  float: left; /* 將按鈕容器向右浮動 */
- 
-}
 .resume {
   max-width: 800px;
   margin: 0 auto;
