@@ -157,7 +157,7 @@ hr {
     display: block;
   }
   .notion-button,
-  .project-button {
+  .dropbtn  {
     padding: 3px 6px; /* 調整按鈕大小 */
     font-size: 10px; /* 調整按鈕字體大小 */
   }
